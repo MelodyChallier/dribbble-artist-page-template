@@ -1,0 +1,22 @@
+@import url('rainbow-txt.css');
+@import url('third-nav-part.css');
+@import url('second-part-nav.css');
+@import url('navbar-top.css');
+@import url('navbar-bottom.css');
+@import url('artist-card.css');
+@import url('card-art.css');
+
+*{
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F4F4F4 !important;
+}
+
+.second-part-nav, .navbar-top, .upload-button, .third-part-nav, .upload-button,
+.navbar-bottom, .container-dribbble, .artist-card, .id-artist, .team-artist,
+.elsewhere-artist, .art-container{
+	display: flex;
+}

@@ -1,0 +1,38 @@
+#shots::after{
+	content: "83";
+	color: #BCBCBC;
+	margin: 0 20px 0 6px;
+}
+
+#follow::after{
+	content: "7,408";
+	color: #BCBCBC;
+	margin: 0 20px 0 6px;
+}
+
+#more::after{
+	content: "▼";
+	color: #BCBCBC;
+	margin: 0 20px 0 6px;
+}
+
+.navbar-bottom a{
+	font-weight: 600;
+	color: #333333;
+	text-decoration: none;
+}
+
+.navbar-bottom a:hover{
+	color: grey;
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+.navbar-bottom{
+	width: 100%;
+	background-color: white;
+	align-items: center;
+	justify-content: center;
+	padding: 14px;
+	border-bottom: 1px solid lightgrey;
+}

@@ -1,0 +1,21 @@
+.second-part-nav{
+	justify-content: space-between;
+	align-items: center;
+	width: 32%;
+	color: lightgrey;
+	font-weight: 600;
+}
+
+.second-part-nav a{
+	text-decoration: none;
+	color: #999999;
+}
+
+.second-part-nav a:hover{
+	text-decoration: none;
+	color: #FBFBFB;
+}
+
+.second-part-nav p{
+	margin: 0;
+}

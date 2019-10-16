@@ -1,0 +1,10 @@
+.rainbow-txt{
+	background: linear-gradient(45deg, #E47B49 0%, #ea4c89 100%);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.rainbow-txt:hover{
+	text-decoration: none;
+	color: transparent;
+}

@@ -1,0 +1,36 @@
+.third-part-nav{
+	width: 30%;
+	justify-content: space-between;
+	margin: 0 20px;
+	align-items: center;
+}
+
+.avatar{
+	width: 30px;
+}
+
+.upload-button{
+	width: 100px;
+	height: 40px;
+	border: 1px solid lightgrey;
+	justify-content: space-between;
+	align-items: center;
+	color: #DDDDDD;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.upload-button:hover{
+	color: #FBFBFB;
+}
+
+.upload-button p{
+	margin: 0;
+}
+
+input{
+	border-radius: 5px;
+	padding-left: 10px;
+	height: 40px;
+}

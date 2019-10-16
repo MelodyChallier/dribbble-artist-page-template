@@ -1,0 +1,19 @@
+.art-container{
+	margin-top: 50px !important;
+	justify-content: space-between;
+	align-items: center;
+	width: 70%;
+	margin: auto;
+}
+
+.card-art{
+	width: 300px;
+	height: 225px;
+	background-color: grey;
+	border: 10px solid white;
+	margin: 10px 0px;
+}
+
+.card-art img{
+	width: 100%;
+}

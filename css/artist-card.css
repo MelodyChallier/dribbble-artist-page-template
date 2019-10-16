@@ -1,0 +1,80 @@
+.container-dribbble{
+	width: 95%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+.artist-card{
+	height: 500px;
+	background-color: white;
+	padding: 20px 20px 5px 20px;
+	margin-top: 50px;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+	flex-direction: column;
+}
+
+.id-artist{
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 20px;
+	justify-content: center;
+}
+
+.id-artist img{
+	width: 120px;
+	border-radius: 100%
+}
+
+.id-artist h2{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.id-artist :nth-child(3){
+	color: #999999;
+	font-style: italic;
+}
+
+.follow-button{
+	padding: 5px;
+	width: 80px;
+	border-radius: 5px;
+	color: #999999;
+	background-color: #DDDDDD;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.follow-button:hover{
+	text-decoration: none;
+	color: #333333;
+}
+
+.artist-card h3{
+	font-size: 1em;
+	color: lightgrey;
+	text-transform: uppercase;
+}
+
+.team-artist,
+.elsewhere-artist{
+	flex-direction: column;
+	padding: 20px 0 5px 0;
+}
+
+.team-artist{
+	border-bottom: 1px solid lightgrey;
+}
+
+.fa-globe-asia, .fa-instagram{
+	color: grey;
+	font-size: 1.2em;
+}
+
+.fa-fire-alt{
+	color: darkorange;
+	font-size: 1.2em;
+}
